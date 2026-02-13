@@ -7,7 +7,6 @@ pipeline {
         IMAGE_NAME = "rrgowd/notes-aap"
         IMAGE_TAG  = "${BUILD_NUMBER}"
     }
-
     stages {
 
         stage("Hello") {
